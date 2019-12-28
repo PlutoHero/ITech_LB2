@@ -1,0 +1,65 @@
+body{
+    font-family: 'Handlee', cursive;
+    font-size: 30px;
+}
+
+table{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    border-spacing: 0px;
+    width: 450px;
+    text-align: center;
+    border: 2px solid crimson;
+    border-bottom: 1px solid crimson;
+    margin: 20px;
+}
+
+th{
+    font-size: 25px;
+    background-color: crimson;
+    color: white;
+    padding: 5px;
+}
+
+.subject{
+    text-align: left;
+    padding: 5px;
+}
+
+.first td{
+    border-bottom: 1px solid crimson;
+}
+
+.second td{
+    border-bottom: 2px solid crimson;
+    background-color: lightgoldenrodyellow;
+}
+
+span#text{
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    color:green;
+    font-size: 50px;
+}
+
+span#fixedText{
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}
+
+.info{
+    margin: 50px;
+    margin-top: 200px;
+}
+
+.float{
+    margin-top: 200px;
+    margin-left: 50px;
+    padding: 20px;
+    float: left;
+}
